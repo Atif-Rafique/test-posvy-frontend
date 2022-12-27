@@ -1,0 +1,63 @@
+// global font family
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@701,200,500,301,201,1,300,2,601,600,401,501,400,700&display=swap");
+
+@import "./common-component-file.scss";
+
+@import "./common.scss";
+
+// ####################### Global Styling Here #######################
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: $font-general-sans !important;
+}
+
+.app-body {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+// ######################## MUI Form Inputs ########################
+.MuiTextField-root,
+.MuiOutlinedInput-root,
+.MuiOutlinedInput-input {
+  font-family: $font-general-sans !important;
+  font-weight: $fw-500 !important;
+  font-size: $fs-16 !important;
+  letter-spacing: 0.2px !important;
+  line-height: 24px !important;
+  color: $primary-text-color !important;
+
+  // no border
+  border-radius: 12px !important;
+  background-color: $input-gray-bg !important;
+  transition: 3s ease-in-out !important;
+
+  &::placeholder {
+    color: $placeholder-color !important;
+    font-weight: $fw-400 !important;
+  }
+  &:focus {
+    color: $primary-text-color !important;
+    background-color: $white-color !important;
+  }
+}
+
+.Mui-focused fieldset {
+  transition: 1s ease-in-out !important;
+  border-color: $primary-color !important;
+}
+
+input[type="password"] {
+  -webkit-text-security: disc !important;
+  font-family: $font-general-sans;
+  font-size: $fs-16 !important;
+  caret-color: $primary-color;
+  // letter-spacing: 0.5em !important;
+  // gap: 8px !important;
+}

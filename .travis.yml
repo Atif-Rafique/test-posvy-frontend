@@ -1,0 +1,36 @@
+language: node_js
+
+# Set the version of Node.js that will be used to run the tests
+node_js:
+  - "18.12.1"
+
+# Set the script that will be run to install dependencies
+install:
+  - npm i
+
+# Set the script that will be run to test the codee
+script:
+  - npm run test
+
+# Set the branch that will be deployed when updates are pushed
+branches:
+  only:
+    - master
+
+# Enable automatic deployment to GitHub Pages
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: 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
+  local-dir: .next/export
+  keep-history: true
+  on:
+    branch: master
+
+# Set the directories that will be excluded from the deployment
+exclude:
+  - .git
+  - .travis.yml
+  - node_modules
+  - package.json
+  - package-lock.json

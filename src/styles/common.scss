@@ -1,0 +1,237 @@
+@import "./variables.scss";
+
+// #################### Colors ####################
+.font-general-sans {
+  font-family: $font-general-sans !important;
+}
+
+.primary-color {
+  color: $primary-color !important;
+}
+
+.primary-text-color {
+  color: $primary-text-color !important;
+}
+
+.white-color {
+  color: $white-color !important;
+}
+
+.light-white-color {
+  color: $light-white-color !important;
+}
+
+.black-color {
+  color: $black-color !important;
+}
+
+// #################### Background Colors ####################
+.body-bg-main {
+  background-color: $body-bg-main !important;
+}
+
+.primary-bg-color {
+  background-color: $primary-bg-color !important;
+}
+// #################### Headings ####################
+
+.fs-40 {
+  font-size: $fs-40 !important;
+}
+
+.fs-32 {
+  font-size: $fs-32 !important;
+}
+
+.fs-18 {
+  font-size: $fs-18 !important;
+}
+
+.fs-16 {
+  font-size: $fs-16 !important;
+}
+
+// #################### Font Weights ####################
+
+.fw-900 {
+  font-weight: $fw-900 !important;
+}
+
+.fw-800 {
+  font-weight: $fw-800 !important;
+}
+
+.fw-700 {
+  font-weight: $fw-700 !important;
+}
+
+.fw-600 {
+  font-weight: $fw-600 !important;
+}
+
+.fw-500 {
+  font-weight: $fw-500 !important;
+}
+
+.fw-400 {
+  font-weight: $fw-400 !important;
+}
+
+.fw-300 {
+  font-weight: $fw-300 !important;
+}
+
+// #################### Borders ####################
+
+.border-0 {
+  border: 0 !important;
+}
+
+.border-12 {
+  border-radius: 12px !important;
+}
+
+// #################### Line Heights ####################
+
+.lh-48 {
+  line-height: 48px !important;
+}
+
+.lh-40 {
+  line-height: 40px !important;
+}
+
+.lh-27 {
+  line-height: 27px !important;
+}
+
+.lh-24 {
+  line-height: 24px !important;
+}
+
+// #################### flex ####################
+
+.d-block {
+  display: block !important;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+.direction-row {
+  flex-direction: row !important;
+}
+
+.direction-column {
+  flex-direction: column !important;
+}
+
+.justify-end {
+  justify-content: flex-end !important;
+}
+
+.align-center {
+  align-items: center !important;
+}
+
+.align-end {
+  align-items: flex-end !important;
+}
+
+.justify-center {
+  justify-content: center !important;
+}
+
+.justify-between {
+  justify-content: space-between !important;
+}
+
+.align-start {
+  align-items: flex-start !important;
+}
+
+.justify-around {
+  justify-content: space-around !important;
+}
+
+.fit-content {
+  width: fit-content !important;
+}
+
+// #################### Common Classes ####################
+
+.text-decoration {
+  text-decoration: none !important;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+
+.m-auto {
+  margin: auto !important;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.text-no-wrap {
+  white-space: nowrap !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+.letter-0_2 {
+  letter-spacing: 0.2px !important;
+}
+
+.letter-0_3 {
+  letter-spacing: 0.2px !important;
+}
+
+.half-opacity {
+  opacity: 0.5;
+}
+
+.input-validation-error {
+  color: #fd4f4f !important;
+}
+
+// #################### Heights ####################
+.h-56 {
+  height: 56px !important;
+}
+
+// #################### Common Button Style ####################
+.common-btn {
+  background-color: $primary-bg-color !important;
+  color: $white-color !important;
+  border: 0 !important;
+  cursor: pointer;
+  border-radius: 12px !important;
+}

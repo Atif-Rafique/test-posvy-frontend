@@ -1,0 +1,32 @@
+.checkbox-wrapper {
+  .checkbox[type="checkbox"] {
+    appearance: none !important;
+    -webkit-appearance: none;
+    height: 20px !important;
+    width: 20px !important;
+    border: 1.5px solid #0caf60 !important;
+    border-radius: 45px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    &::after {
+      content: url("../../../assets/images/checkbox/tick-sm.png");
+      color: #fff;
+      position: relative;
+      opacity: 0;
+      font-size: 15px;
+      bottom: 0px;
+      right: -3px;
+      top: 0;
+    }
+    &:checked {
+      background-color: #0caf60;
+      border: none;
+      height: 20px;
+      &::after {
+        opacity: 1;
+        top: -1.3px;
+      }
+    }
+  }
+}
